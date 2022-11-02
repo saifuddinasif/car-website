@@ -3,11 +3,14 @@ import { Link } from 'react-router-dom';
 
 import logo from '../../genius-car-resources-main/assets/logo.svg'
 
- const menuItems = <>
+ const menuItems = <li>
  
  <li className='font-semibold'> <Link to='/'> Home</Link> </li>
-   
- </>
+
+ <li className='font-semibold'> <Link to='/login'> Login</Link>
+  </li>
+  
+</li>
 
 const Header = () => {
     return (
